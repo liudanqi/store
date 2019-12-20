@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>退出登录</title>
+</head>
+<body>
+<h1>退出登录</h1>
+   <form method="post" action="">
+        <p>姓名: <input type="text" name="username"></p>
+        {% for message in form.username.errors %}
+        <small class="error">{{ message }}</small><br>
+        {% endfor %}
+       <div>{{ form.submit }}</div>
+        {{ form.csrf_token }}
+   </form>
+</body>
+</html>

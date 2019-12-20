@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>登录</title>
+    <title>注销</title>
 </head>
 <body>
-    <h1>用户登录</h1>
+<h1>用户注销</h1>
     <form method="post" action="">
-        <p>姓名:<input type="text" name="username"></p>
+        <p>姓名: <input type="text" name="username"></p>
         {% for message in form.username.errors %}
         <small class="error">{{ message }}</small><br>
         {% endfor %}
-        <p>密码:<input type="password" name="password"></p>
+        <p>密码: <input type="password" name="password"></p>
         {% for message in form.password.errors %}
         <small class="error">{{message}}</small><br>
         {% endfor %}
-        <p><input type="submit" value="提交"></p>
-        <a href="http://127.0.0.1:5000/bookstore/register">register here</a>
-        {{form.csrf_token}}
+        <div>{{ form.submit }}</div>
+        {{ form.csrf_token }}
     </form>
 </body>
 </html>

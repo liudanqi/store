@@ -12,7 +12,7 @@ class RegisterForm(Form):
     )
     password2 = PasswordField(
         validators=[
-            DataRequired(message='密码不能为空，请输入你的密码'),
+            DataRequired(message='确认密码不能为空，请输入你的密码'),
             Length(3, 32, message='密码最小3位最长32位'),
             EqualTo('password', message="两次密码不一致!")
         ]
@@ -23,9 +23,22 @@ class RegisterForm(Form):
             Length(2, 10, message='昵称至少需要2个字符，最多10个字符')
         ]
     )
-    submit = SubmitField(
-        '提交'
+    submit = SubmitField('注册')
+
+class UnregisterForm(Form):
+    username = TextField(
+        validators=[
+            DataRequired(message='用户名不可以为空，请输入你的密码'),
+            Length(2, 10, message='昵称至少需要2个字符，最多10个字符')
+        ]
     )
+    password = PasswordField(
+        validators=[
+            DataRequired(message='密码不可以为空，请输入你的密码'),
+            Length(3, 32, message='密码最小3位最长32位')
+        ]
+    )
+    submit = SubmitField('注销')
 
 class LoginForm(Form):
     username = TextField(
@@ -41,3 +54,35 @@ class LoginForm(Form):
         ]
     )
     submit = SubmitField('登录')
+
+class LogoutForm(Form):
+    username = TextField(
+        validators=[
+            DataRequired(message='用户名不可以为空，请输入你的密码'),
+            Length(2, 10, message='昵称至少需要2个字符，最多10个字符')
+        ]
+    )
+    submit = SubmitField('退出登录')
+
+
+class PasswordForm(Form):
+    username = TextField(
+        validators=[
+            DataRequired(message='用户名不可以为空，请输入你的密码'),
+            Length(2, 10, message='昵称至少需要2个字符，最多10个字符')
+        ]
+    )
+    oldpassword = PasswordField(
+        validators=[
+            DataRequired(message='密码不可以为空，请输入你的密码'),
+            Length(3, 32, message='密码最小3位最长32位')
+        ]
+    )
+    newpassword = PasswordField(
+        validators=[
+            DataRequired(message='密码不可以为空，请输入你的密码'),
+            Length(3, 32, message='密码最小3位最长32位')
+        ]
+    )
+    submit = SubmitField('修改密码')
+

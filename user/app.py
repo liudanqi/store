@@ -5,7 +5,7 @@ import sys
 
 from flask import Flask
 
-from user.front import bp
+from test import bp
 from flask_bootstrap import Bootstrap
 #app.config.from_pyfile('config')
 file_dir = os.path.dirname(__file__)
