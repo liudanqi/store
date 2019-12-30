@@ -31,12 +31,13 @@ class Book:
 class BookDB:
     def __init__(self, large: bool = False):
         parent_path = os.path.dirname(os.path.dirname(__file__))
-        self.db_s = os.path.join(parent_path, "data/book.db")
-        self.db_l = os.path.join(parent_path, "data/book_lx.db")
-        if large:
-            self.book_db = self.db_l
-        else:
-            self.book_db = self.db_s
+        self.db_s = os.path.join(parent_path, "book.db")
+        self.book_db = self.db_s
+        # self.db_l = os.path.join(parent_path, "book_lx.db")
+        # if large:
+        #     self.book_db = self.db_l
+        # else:
+        #     self.book_db = self.db_s
 
     def get_book_count(self):
         conn = sqlite.connect(self.book_db)
@@ -87,9 +88,10 @@ class BookDB:
                     book.pictures.append(encode_str)
             books.append(book)
             # print(tags.decode('utf-8'))
-
+            #
             # print(book.tags, len(book.picture))
             # print(book)
             # print(tags)
 
         return books
+
