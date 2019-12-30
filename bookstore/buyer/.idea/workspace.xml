@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d810636a-8df8-4939-aaa5-9331710912a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/store.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="248" />
+    <option name="y" value="238" />
+    <option name="width" value="2246" />
+    <option name="height" value="1374" />
+  </component>
+  <component name="ProjectId" id="1VgucPMTk5DgKYNOVspWXIaPSWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_payment.py">
+    <configuration name="pytest for test_add_funds.TestAddFunds.test_ok" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_funds.TestAddFunds.test_ok&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_new_order.TestNewOrder.test_ok" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_new_order.TestNewOrder.test_ok&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_payment.TestPayment" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payment.TestPayment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_payment.TestPayment.test_authorization_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_payment.TestPayment.test_authorization_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_payment.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/bookstore/test/test_payment.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_payment.py" />
+        <item itemvalue="Python tests.pytest for test_payment.TestPayment" />
+        <item itemvalue="Python tests.pytest for test_payment.TestPayment.test_authorization_error" />
+        <item itemvalue="Python tests.pytest for test_add_funds.TestAddFunds.test_ok" />
+        <item itemvalue="Python tests.pytest for test_new_order.TestNewOrder.test_ok" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d810636a-8df8-4939-aaa5-9331710912a2" name="Default Changelist" comment="" />
+      <created>1577610514359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577610514359</updated>
+      <workItem from="1577687138882" duration="495000" />
+      <workItem from="1577687641051" duration="6794000" />
+      <workItem from="1577695648547" duration="2204000" />
+      <workItem from="1577698326814" duration="13385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="79" width="1240" height="719" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577714450122">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="79" width="1240" height="719" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1577714450122" />
+    <state x="429" y="75" key="#pytest_for_test_add_funds.TestAddFunds.test_ok" timestamp="1577687655679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="429" y="75" key="#pytest_for_test_add_funds.TestAddFunds.test_ok/0.0.1440.900@0.0.1440.900" timestamp="1577687655679" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1577718208284">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577718208284" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1577718208283">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577718208283" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1577718208283">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577718208283" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1577718208284">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577718208284" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577718208286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577718208286" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1577718208285">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577718208285" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1577718208285">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577718208285" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1577718208285">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577718208285" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1577687676028">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577687676028" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577715010441">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1577715010441" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bookstore/test/test_new_order.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bookstore/buyer/buyer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bookstore/test/test_payment.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/buyer$pytest_in_test_new_order_py.coverage" NAME="pytest in test_new_order.py Coverage Results" MODIFIED="1577710536413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_new_order_TestNewOrder.coverage" NAME="pytest for test_new_order.TestNewOrder Coverage Results" MODIFIED="1577712641966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_new_order_TestNewOrder_test_non_exist_user_id.coverage" NAME="pytest for test_new_order.TestNewOrder.test_non_exist_user_id Coverage Results" MODIFIED="1577706309530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_add_funds_TestAddFunds_test_ok.coverage" NAME="pytest for test_add_funds.TestAddFunds.test_ok Coverage Results" MODIFIED="1577713917838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_in_test_payment_py.coverage" NAME="pytest in test_payment.py Coverage Results" MODIFIED="1577715266794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_payment_TestPayment_test_authorization_error.coverage" NAME="pytest for test_payment.TestPayment.test_authorization_error Coverage Results" MODIFIED="1577715163654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_new_order_TestNewOrder_test_ok.coverage" NAME="pytest for test_new_order.TestNewOrder.test_ok Coverage Results" MODIFIED="1577713894300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_add_funds_TestAddFunds.coverage" NAME="pytest for test_add_funds.TestAddFunds Coverage Results" MODIFIED="1577701901230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_new_order_TestNewOrder_test_non_exist_store_id.coverage" NAME="pytest for test_new_order.TestNewOrder.test_non_exist_store_id Coverage Results" MODIFIED="1577706333962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_payment_TestPayment.coverage" NAME="pytest for test_payment.TestPayment Coverage Results" MODIFIED="1577715195861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_payment_TestPayment_test_ok.coverage" NAME="pytest for test_payment.TestPayment.test_ok Coverage Results" MODIFIED="1577711754962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_in_test_add_funds_py.coverage" NAME="pytest in test_add_funds.py Coverage Results" MODIFIED="1577687678661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+    <SUITE FILE_PATH="coverage/buyer$pytest_for_test_new_order_TestNewOrder_test_non_exist_book_id.coverage" NAME="pytest for test_new_order.TestNewOrder.test_non_exist_book_id Coverage Results" MODIFIED="1577708702044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/test" />
+  </component>
+</project>
