@@ -1,5 +1,5 @@
 import random
-from test import book
+from seller import book
 from test.new_seller import register_new_seller
 
 

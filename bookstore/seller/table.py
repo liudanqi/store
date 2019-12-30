@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Text, DateTime, String, Integer, Float, ForeignKey, create_engine, PrimaryKeyConstraint
+from sqlalchemy import Column, Text, DateTime, String, Integer, Float, ARRAY ,ForeignKey, create_engine, PrimaryKeyConstraint
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -15,8 +15,6 @@ class User(Base):
     pay_pwd = Column(Text)
     money = Column(Float)
     isseller = Column(Integer)
-    seller_pwd = Column(Text)
-    # sid = Column(Text)
 
 class Store(Base):
     __tablename__ = 'store'
@@ -28,8 +26,31 @@ class Depository(Base):
     did = Column(Text, primary_key=True)
     bid = Column(Text)
     store_id = Column(Text, ForeignKey('store.sid'))
-    price = Column(Float)
     stock_level = Column(Integer)
+
+class Stock(Base):
+    __tablename__ = 'stock'
+    bid = Column(Text, primary_key=True)
+    title = Column(Text)
+    author = Column(Text)
+    publisher = Column(Text)
+    original_title = Column(Text)
+    translator = Column(Text)
+    pub_year = Column(Text)
+    pages = Column(Integer)
+    price = Column(Integer)
+    binding = Column(Text)
+    isbn = Column(Text)
+    author_intro = Column(Text)
+    book_intro = Column(Text)
+    content = Column(Text)
+    tags = Column(ARRAY(Text))
+    pics = Column(ARRAY(Text))
+    # did = Column(ARRAY(Text), ForeignKey('depository.did'))
+
+
+
+
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()

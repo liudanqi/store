@@ -1,8 +1,9 @@
 import pytest
 
+from seller import book
 from test.new_seller import register_new_seller
 from seller.seller import Seller
-from seller import book
+# from seller import book
 import uuid
 
 
