@@ -1,6 +1,6 @@
 import pytest
 from test.new_seller import register_new_seller
-from be import book
+from test import book
 import uuid
 
 

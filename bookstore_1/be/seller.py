@@ -1,10 +1,10 @@
 from sqlalchemy import and_
 from sqlalchemy.orm import sessionmaker
-import pymongo
+
 import uuid
 
 
-from be.table import Store,User,Depository,engine,Stock
+from be.table import Store,User,Depository,engine,Stock, Order
 
 class Seller():
     def __init__(self, url, user_id, pwd):
@@ -111,4 +111,18 @@ class Seller():
         session.close()
         return 200
 
-# w = Seller('127.0.0.1:5000/', 'sss', '0000').add_book('ssss', '9', None)
+
+    # 卖家发货
+    def deliver(self, oid):
+        DBSession = sessionmaker(bind=engine)
+        session = DBSession()
+        e_oid = session.query(Order).filter(Order.oid == oid)
+        if e_oid.count() == 0:
+            session.commit()
+            session.close()
+            return 534  # 没有待发货的订单
+        else:
+            session.query(Order).filter(Order.oid == oid).update({'status': 2})  # 订单发货
+            session.commit()
+            session.close()
+            return 200

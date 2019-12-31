@@ -4,8 +4,8 @@ from be.table import engine
 import time
 
 class Buyer():
-    def __init__(self, url, user_id, password):
-        self.url = url
+    def __init__(self, url_prefix, user_id, password):
+        self.url_prefix = url_prefix
         self.user_id = user_id
         self.password = password
 
@@ -32,11 +32,11 @@ class Buyer():
                     return 504,"商品库存不足"
                 else:
                     bookprice = session.query(Stock).filter(Stock.bid == id).one()
-                    total = bookcount * bookprice.price
+                    total = total + bookcount * bookprice.price
             else:
                 session.close()
                 return 555, "购买的图书不存在"
-        session.add(Order(oid=order_id,uid=self.user_id,store_id=store_id,total=total,status=0))
+        session.add(Order(oid=order_id,uid=self.user_id,store_id=store_id,total=total,status=0,time=time.time()))
         session.flush()
         session.commit()
         session.close()

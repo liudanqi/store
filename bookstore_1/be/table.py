@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Text, DateTime,ARRAY, String, Integer, Float, ForeignKey, create_engine, PrimaryKeyConstraint
+from sqlalchemy import Column, Text, DateTime,ARRAY, String,Integer, Float, ForeignKey, create_engine, PrimaryKeyConstraint
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -35,6 +35,7 @@ class Order(Base):
     store_id = Column(Text, ForeignKey('store.sid'))
     total = Column(Integer)
     status = Column(Integer)
+    time = Column(Float)
 
 
 class Stock(Base):
