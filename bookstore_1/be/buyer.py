@@ -1,6 +1,7 @@
 from sqlalchemy.orm import sessionmaker
 from be.table import Store,User,Depository,Order,Stock
 from be.table import engine
+import uuid
 import time
 
 class Buyer():
@@ -11,7 +12,7 @@ class Buyer():
 
 
     def new_order(self, store_id, books):
-        order_id = self.user_id + time.strftime("%d/%m/%Y %sH:%M:%S")  # 利用用户名+当前时间做订单编号
+        order_id = "order_{}".format(str(uuid.uuid1()))
         total = 0 #商品价格
         #engine = create_engine("postgresql+psycopg2://postgres:123456@127.0.0.1:5433/bookstore")
         DBSession = sessionmaker(bind=engine)
